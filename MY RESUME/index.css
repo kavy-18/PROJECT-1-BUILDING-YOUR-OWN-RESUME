@@ -1,0 +1,51 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    gap: 3%;
+    width: 60%;
+}
+.container .left{
+    width: 35%;
+    background-color: rgb(71, 82, 97);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    color: white;
+}
+.container .left .intro{
+    padding-left: 20%
+}
+.container .right{
+    width: 55%;
+}
+.container .left img{
+    min-width: 160px;
+    max-height: 180px;
+    border-radius: 50%;
+}
+.container .left hr{
+    height: 2px;
+    background-color: white;
+}
+.container .left .contact a{
+    text-decoration: none;
+    color: white;
+}
+.container .left .contact img{
+    max-height: 12px;
+    min-width: 15px;
+    text-decoration: none;
+    background-color: white;
+}
+.heading{
+    padding-left:2%;
+    background-color: antiquewhite;
+}
